@@ -36,6 +36,7 @@ scripts/
     install_dependencies.sh
     start_server.sh
 
+
 STEP 2 — Launch an EC2 Instance
 
 Why?
@@ -75,6 +76,7 @@ phases:
 artifacts:
   files:
     - '**/*'
+<img width="451" height="333" alt="image" src="https://github.com/user-attachments/assets/970ed886-0192-4e78-a81a-b01cb1c09a5c" />
 
 
 Why this file?
@@ -104,6 +106,7 @@ hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
       timeout: 300
+<img width="621" height="403" alt="image" src="https://github.com/user-attachments/assets/adcf850e-959d-4715-805c-cbaf6e210a1d" />
 
 
 Why?
